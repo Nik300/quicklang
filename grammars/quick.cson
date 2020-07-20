@@ -1,0 +1,15 @@
+scopeName: 'source.quickLang'
+name: 'Quick'
+fileTypes: [
+  'q'
+  'qh'
+]
+limitLineLength: false
+
+patterns: [
+  {
+    comment: 'This is a comment (will not be builded)'
+    name: 'quick.basic.comment'
+    match: '#.*$'
+  }
+]

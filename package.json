@@ -1,0 +1,13 @@
+{
+  "name": "language-quick",
+  "version": "0.0.1",
+  "description": "Quick is the powerfoul programming language for the BIN.NET format",
+  "keywords": [
+    ".NET",
+    "CosmosOS"
+  ],
+  "license": "GNU-PUBLIC",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
