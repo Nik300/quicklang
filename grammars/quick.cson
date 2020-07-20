@@ -8,8 +8,19 @@ limitLineLength: false
 
 patterns: [
   {
-    comment: 'This is a comment (will not be builded)'
     name: 'quick.basic.comment'
     match: '#.*$'
+  }
+  {
+    name: 'meta.section.example'
+    contentName: 'markup.other.section.example'
+    begin: 'func(.*$) .*${'
+    beginCaptures:
+      1: name: 'support.function.section.example'
+      2: name: 'punctuation.definition.function.example'
+      3: name: 'punctuation.definition.begin.example'
+    end: '}'
+    endCaptures:
+      0: 'punctuation.definition.end.example'
   }
 ]
